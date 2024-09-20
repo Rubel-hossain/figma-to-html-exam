@@ -1,7 +1,27 @@
+/******************
+01. our google font input here  
+02. global style reset
+03. body and font settings
+04. top header area styles
+05. main menu area styles
+06. off-canvar menu styles
+07. hero section styles
+08. hero contact info styles
+09. attention section styles
+10. blog section styles
+11. about section styles
+12. map area styles
+13. footer area styles
+14. about page area styles
+15. institutional area styles
+16. situations section styles
+17. about page contact area styles
+*******************/
+
 /* our google font input here  */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
 
-/* our google font input end here  */
+/* 01. our google font input end here  */
 *{
     margin: 0;
     padding: 0;
@@ -607,14 +627,18 @@ ul li{
 }
 .accordion-header {
     margin-bottom: 0;
-    border-bottom: 1px solid rgb(212, 211, 212);
+    border-bottom: 1px solid #3468C0;
 }
 .accordion-button{
     font-family: "Outfit";
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    
+    color: #3468C0;
+}
+.accordion-button span {
+ color: #141515;
+ font-size: 22px;
 }
 .about-accodion-para{
     font-family: "DM Sans";
@@ -645,10 +669,18 @@ ul li{
     width: 100%;
 }
 .about-nav-area ul li{
-    list-style: disc;
-    color: #15be86;
-    margin: 10px 0;
+  position: relative;
 }
+.about-nav-area ul li::before {
+    content: ""; 
+    position: absolute;
+    left: -28px;
+    top: 5px;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50%;
+    background-color: #D4F0D4; 
+  }
 .about-nav-area ul li a{
     color: #141515;
 }
@@ -739,11 +771,6 @@ ul li{
 .our-contacts-section{
     margin-bottom: 60px;
 }
-
-
-
-
-
 
 /* about page contact area style start here  */
 .single-contact img{
