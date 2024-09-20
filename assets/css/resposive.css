@@ -1,0 +1,176 @@
+/*destop-leyout-*/
+@media only screen and (min-width: 1200px) and (max-width:1400px){
+    
+}
+/*laptop-leyout-*/
+@media only screen and (min-width: 992px) and (max-width:1200px){
+    .babul-blog {
+        display: none;
+    }
+    .nav-bar-menu li a {        
+        font-size: 16px;
+        line-height: 22px;        
+        margin: 10px 0px 0px 10px;
+    }
+    .our-hero-section {       
+        height: 410px;       
+    }
+    .hero-contact {        
+        top: 100px;        
+    }
+    .hero-card-area{
+        display: none;
+    }
+    .our-atention-info h2 {
+        margin-top: 40px;        
+    }
+    .slick-next:before {        
+        bottom: 136px;
+    }
+}
+    
+
+
+/*tablet layout768px*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .main-mobile-menu{
+        display: block;
+    }
+    .top-header-info {
+        display: block;
+        justify-content: space-between;
+        margin: 10px 0;
+        text-align: center;
+        display:none;
+    }
+    .menu-trigger{
+        display: block;
+    }
+    .off-canvar-menu {       
+        display: block;
+    }
+    .top-nav-bar-menu{
+        display: none;
+    }
+    .main-menu{
+        display: none;
+    }
+
+    /* our header area end here  */
+    .hero-card-area {
+        display: none;
+    }
+    .av-bar-icon{
+        display: none;
+    }
+    .main-top-menu{
+        position: absolute;
+        right: 20px;
+        top: 55px;
+    }
+    .hero-contact {        
+        display: none;
+    }
+    .our-hero-section {        
+        height: 280px;        
+
+}
+.our-atention-info h2 {
+    margin-top: 40px;    
+}
+.babul{
+    display: none;
+}
+.about-2-img img {
+    height: 140px;
+    width: 110px;       
+    top: 25px;    
+}
+.about-info-para {    
+    margin-bottom: 20px;
+}
+.abou-btn{
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.left-end-footer{
+    text-align: center;
+}
+.right-end-footer{
+    text-align: center; 
+}
+
+
+}
+/* mobile layout:320px*/
+@media only screen and (max-width:767px){    
+    .main-mobile-menu{
+        display: block;
+    }
+     .off-canvar-menu {       
+        display: block;
+    }
+    .menu-trigger{
+        display: block;
+    }
+    .top-header-info {
+        display: block;
+        justify-content: space-between;
+        margin: 10px 0;
+        text-align: center;
+        display:none;
+    }
+    .top-nav-bar-menu{
+        display: none;
+    }
+    .main-menu{
+        display: none;
+    }
+
+    /* our header area end here  */
+    .hero-card-area {
+        display: none;
+    }
+    .av-bar-icon{
+        display: none;
+    }
+    .main-top-menu{
+        position: absolute;
+        right: 20px;
+        top: 55px;
+    }
+    .hero-contact {        
+        display: none;
+    }
+    .our-hero-section {        
+        height: 125px;        
+
+}
+.our-atention-info h2 {
+    margin-top: 40px;    
+}
+.babul{
+    display: none;
+}
+.about-2-img img {
+    height: 140px;
+    width: 110px;       
+    top: 25px;    
+}
+.about-info-para {    
+    margin-bottom: 20px;
+}
+.abou-btn{
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.left-end-footer{
+    text-align: center;
+}
+.right-end-footer{
+    text-align: center; 
+}
+
+
+
+}

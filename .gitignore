@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Dependency directories
+.pnp
+.pnp.js
+
+# Coverage directory used by tools like istanbul or nyc
+coverage/
+
+# Build directories
+dist/
+build/
+out/
+
+# Dependency directories for front-end frameworks
+bower_components/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Local environment settings
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac specific
+*.DS_Store
+
+# Static website content
+public/assets/
+public/dist/
+
+# Specific for Webpack
+webpack.config.js
+
+# Ignore compiled CSS and JS files (if you are using a preprocessor)
+*.min.css
+*.min.js
+*.map
+
+# Optional: Uncomment if you're using SASS/SCSS
+# .sass-cache/
+# *.scssc
+
+# Optional: Uncomment if you're using TypeScript
+# *.tsbuildinfo
+# *.ts
+

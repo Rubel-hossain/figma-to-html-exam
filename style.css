@@ -1,0 +1,765 @@
+/* our google font input here  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap');
+
+/* our google font input end here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+  font-family: "DM Sans";
+}
+body {
+  margin: 0;
+  padding: 0;
+
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #3C3C3C;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* our top header area style start here  */
+.top-header-area{
+    background-color: #D4F0D4;   
+    
+}
+.top-header-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+
+}
+.top-header-area p{
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.menu-trigger{
+    display: none;
+}
+
+/* main menu area style start here  */
+.main-logo a img{
+    width: 97px;
+    height: 93px;
+}
+.our-main-menu-area{
+    margin: 15px 0;
+}
+.nav-top-main-menu{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+.top-nav-bar-menu{
+    display: flex; 
+}
+.top-nav-bar-menu li a{
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3C3C3C;
+    margin: 10px 0px 0px 30px;
+}
+.nav-bar-icon{
+    display: flex;
+}
+
+.nav-bar-menu {
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    margin-top: 30px;
+}
+.nav-bar-menu li a {
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3C3C3C;
+    margin: 10px 0px 0px 30px;
+}
+.nav-bar-icon li a{
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3C3C3C;
+    margin: 10px 0px 0px 10px;
+}
+/*off canver-menu-----------------*/
+.off-canvar-menu {
+    background: #fff;
+    position: fixed;
+    width: 260px;
+    z-index: 99;
+    height: 100%;    
+    margin-left: 300px;
+    transition: .2s;
+    display: none;
+}
+.off-canvar-menu.active {
+    margin-left: -70px;
+    transition: 1s;
+    top: 0;
+}
+.off-canvar-menu ul {
+    padding-top: 50px;    
+    margin: 0; 
+    list-style: none;    
+}
+
+.off-canvar-menu ul> li >a {
+    color: #333;
+    display: block;
+    border-bottom: 1px solid #e9e5e5;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+.offcanvar-bar-list{
+    margin: 0;
+    padding: 0;
+}
+.offcanvar-bar-list li a{
+    margin-left: 10px;
+}
+.menu-close {
+    position: absolute;
+    right: -20px;
+    top: 27px;
+    color: #333;
+    padding: 25px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.off-canvar-overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    z-index: -1;
+    opacity: 0;  
+    transition: .2s;  
+}
+.off-canvar-overlay.active{
+    z-index: 98;
+    opacity: .6;
+      
+}
+.header-top-area .menu-trigger span{
+    height: 2px;
+    width: 30px;
+    background-color: #e84f88;
+    display: block;
+    margin-bottom: 9px;
+}
+.header-top-area .menu-trigger span:nth-child(2){ 
+    width: 15px;
+    display: block;  
+}
+.header-top-area .menu-trigger span:nth-child(3){    
+    width: 25px; 
+    display: block;     
+}
+.off-canvar-icon{
+    display: flex;
+}
+
+.off-canvar-icon a {
+    background-color: #e84f88;
+    color: #fff;
+    padding: 15px 35px;
+    border-right: 1px solid #b9b7b7; 
+}
+.off-canvar-icon a:nth-child(3){
+    border: none;  
+}
+.off-canvar-icon a  i{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    
+
+}
+
+
+
+/* offcanver menu end here  */
+
+
+
+
+/* our hero section area style start here  */
+.our-hero-section{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    height: 580px;
+    position: relative;
+   
+}
+.single-card{
+   background-color: #fff;
+   width: 178px;
+   height: 169px;
+   border-radius: 0px 20px 0px 20px;
+   opacity: 0px;
+   padding: 20px;
+}
+.single-card-img img{
+    margin-bottom: 10px;
+}
+.single-card-info p{
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+.hero-card-area{
+    position: absolute;
+    bottom: -80px;
+    z-index: 1;
+}
+
+
+.header-top-area .menu-trigger span{
+    height: 2px;
+    width: 30px;
+    background-color: #e84f88;
+    display: block;
+    margin-bottom: 9px;
+}
+.header-top-area .menu-trigger span:nth-child(2){ 
+    width: 15px;
+    display: block;  
+}
+.header-top-area .menu-trigger span:nth-child(3){    
+    width: 25px; 
+    display: block;     
+}
+
+
+
+
+/* hero contact info area style start here  */
+.hero-contact-info{
+    display: flex;
+    margin-top: 30px;
+}
+.hero-heding{
+    position: relative;
+}
+.hero-heding::after{
+    position: absolute;
+    content: "";    
+    background-color: #3468C0;
+    height: 2px;
+    width: 60px;
+    top: 40px;
+    left: 0;
+}
+.hero-contact{
+    padding: 20px;
+    position: absolute;
+    background-color: #fff;
+    width: 315px;
+    height: 256px;
+    top: 142px;
+    right: 0;
+    border-radius: 15px 0px 0px 15px;
+}
+.hero-single-contact-info{
+    margin-right: 10px;
+}
+.hero-contact-heding h3{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;    
+    color: #141515;    
+
+}
+.single-contact-info p{
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #3C3C3C;
+    
+}
+.single-contact-info span{
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #3C3C3C;
+}
+
+/* our atention area start here  */
+.our-atention-section {
+    background: #D4F0D4;   
+    padding-bottom: 40px;
+}
+.our-atention-info h2{
+    margin-top: 120px;
+    font-family: "Outfit";
+    font-weight: 250;
+    font-size: 45px;
+    line-height: 62px;    
+    color: #141515; 
+}
+.atention-btn{
+    background: #3468C0;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.our-atention-para{
+    margin-bottom: 40px;
+}
+
+
+
+
+/* our atention area end here  */
+
+
+
+
+/* our blog area style start here  */
+.our-blog-section{
+    position: relative;
+    margin: 80px 0;
+}
+.blog-slider-header{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-slider-header h2{
+    font-family: "Outfit";
+    font-weight: 250;
+    font-size: 45px;
+    line-height: 62px;    
+    color: #141515; 
+
+}
+.blog-slider-header p{
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-weight: 700;    
+    line-height: 24px;
+
+}
+.slider-info h3{
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px;
+    color: #141515;
+}
+.slider-info span{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color:  #808287;
+    margin: 10px 0;
+    display: block;
+}
+.slider-img img{
+    width: 100%;
+}
+
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 12;
+    opacity: .75;
+    color: #3468C0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    right: 0;
+    bottom: 130px;
+}
+.slick-prev:before {
+    display: none;
+}
+
+/* our about section area start here  */
+.our-about-section{
+    margin: 80px 0;
+    position: relative;
+}
+.our-about-info h3{
+    font-family: "Outfit";
+    font-weight: 250;
+    font-size: 46px;
+    line-height: 62px;
+    color: #141515;
+    margin-bottom: 20px;
+    display: block;
+    
+
+}
+.about-info-para{
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-weight: 300;    
+    line-height: 24px;
+    margin-bottom: 40px; 
+
+}
+.about-info-para span{    
+    font-size: 12px;
+    font-weight: 700;    
+    line-height: 24px;   
+
+}
+.our-about-pic-area {
+    position: relative;
+    
+}
+.our-about-pic-area img{
+    height: 504px;
+    width: 421px;
+    max-width: 100%;
+}
+.about-2-img img{
+    height: 246px;   
+    width:246px ; 
+    position: absolute;
+    right: 0;
+    top: 60px;
+    object-fit: cover;
+}
+
+
+/* our map area style start here  */
+.our-map iframe {
+    border-top-left-radius: 80px;
+}
+
+/* our footer area style start here  */
+.our-fotter-section {
+    background: #D4F0D4;
+    position: relative;
+}
+.our-footer-area{
+    padding: 80px 0;
+}
+.single-footer ul{
+    margin: 0;
+    padding: 0;
+}
+.single-footer-header h3{
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px;
+    margin-bottom: 30px;
+
+}
+.single-footer p{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;    
+    line-height: 23px;
+}
+.footer-extra-heding{
+    position: relative;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #141515;
+}
+.footer-extra-heding::after{
+    content: "";
+    position: absolute;
+    background-color: #3468C0;
+    height: 2px;
+    width: 60px;
+    top: 40px;
+    left: 0;
+}
+.single-footer ul li{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;    
+    line-height: 23px;
+    color: #141515;
+}
+.single-footer a{
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-weight: 700;    
+    line-height: 24px;
+    color: #141515;
+    margin: 20px 0;
+    display: block;
+}
+.fa-arrow-right{    
+    margin-left: 10px;
+    
+}
+.scoile-icon{
+    margin: 20px 0;
+}
+.left-end-footer{
+    margin: 20px 0;
+}
+
+.right-end-footer {
+    text-align: end;
+    margin: 20px 0;
+}
+.babul{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.babul-contact{
+    top: -220px;
+}
+/* our about page area start here  */
+.about-hero-area{
+    background-image: url(assets/imagess/vanduooo.png);
+    height: 280px;
+    background-size: cover;
+    object-fit: cover;
+    border-top-right-radius: 100px;
+}
+.hero-about-info{
+    margin: 100px 0;
+}
+.hero-about-info h2{
+    font-family: "Outfit";
+    font-weight: 250;
+    font-size: 47px;
+    line-height: 62px;
+    color: #ffffff;
+}
+.hero-about-info p{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;    
+    line-height: 23px;
+    color: #ffffff;
+}
+
+
+/* about page area style start here  */
+.main-about-area{
+    margin: 80px 0;
+}
+.abour-accodion{
+    margin: 20px;
+}
+.abour-accodion .accordion-button:not(.collapsed)::after {
+    display: none;
+}
+.abour-accodion .accordion-button::after {
+    display: none;
+}
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-item {   
+    border: none; 
+}
+.accordion-button:not(.collapsed) {   
+    background-color: none;  
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var();  
+}
+.accordion {    
+    --bs-accordion-active-bg: none;
+    
+}
+.accodion-nav{
+    margin: 0;
+    padding: 0;
+}
+.accordion-header {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(212, 211, 212);
+}
+.accordion-button{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.about-accodion-para{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;    
+    line-height: 23px;  
+    margin-bottom: 40px;  
+}
+.aboutnav-header h3{
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px;  
+}
+.aboutnav-header p{
+    margin-bottom: 20px; 
+}
+.about-accodion-info{
+    padding: 20px;
+}
+.about-nav-area h3 {
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px;  
+}
+.about-area-img img{
+    width: 100%;
+}
+.about-nav-area ul li{
+    list-style: disc;
+    color: #15be86;
+    margin: 10px 0;
+}
+.about-nav-area ul li a{
+    color: #141515;
+}
+
+
+/* our Institutional area   style start here  */
+.Institutional-area{
+    margin: 80px 0;
+    
+}
+.Institutional-info-area h3{
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px;  
+}
+.Institutional-info-area p{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;    
+    line-height: 23px;
+    margin-bottom: 10px;    
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    
+    font-family:"Font Awesome 6 Free";
+    font-weight: 800;
+    
+}
+.accordion-button::after { 
+    content: " \f063";   
+    background-image: none;
+    font-family:"Font Awesome 6 Free";
+    font-weight: 800;
+    
+}
+.our-information-area{
+    margin-bottom: 80px;
+}
+
+
+/* our Situations section area style start here  */
+
+.Situations-section{
+    margin: 60px 0;
+}
+.single-situations {
+    display: flex;    
+    padding: 40px 20px;
+    align-items: center;    
+    border-radius: 0px 20px 0px 20px;    
+}
+.single-situations:hover {    
+    background-color:#D3F0D4;
+    transition: 1s;
+     
+}
+.single-situations img{
+    margin-right: 40px;
+}
+.single-situations h3{
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px; 
+
+}
+.single-contact-info h3{
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-weight: 400;    
+    line-height: 34px; 
+    margin: 10px 0;
+}
+.single-contact-info p .single-contact-info span{
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 300;    
+    line-height: 24px; 
+    margin: 10px 0;
+}
+.person-contact a{
+    margin-top: 10px;
+    display: block;
+}
+.our-contacts-section{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+/* about page contact area style start here  */
+.single-contact img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
